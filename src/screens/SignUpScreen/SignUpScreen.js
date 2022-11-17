@@ -29,8 +29,7 @@ const onSignUpPressed = () => {
 }
 
     return (
-      <ScrollView showsV
-      erticalScrollIndicator={false}>
+      <ScrollView showsVerticalScrollIndicator={false}>
     <View style={styles.root}>
      <Text style={styles.title} >Create an account </Text>
      <CustomInput placeholder="UserName" value={username} setValue={setUsername} />
@@ -39,7 +38,7 @@ const onSignUpPressed = () => {
      <CustomInput placeholder="Repeat Password" value={passwordRepeat} setValue={setPasswordRepeat} secureTextEntry={true}/>
      <CustomButton text="Register" onPress={onRegisterPressed} type="PRIMARY"/>
      <Text style={styles.link}>Privacy policy </Text>
-     <CustomButton text="Sign In with Facebook" onPress={onSignInFacebook} bgColor="#E7EAF4" fgColor="#4765A9" />
+     <CustomButton text="Sign In with Facebook " onPress={onSignInFacebook} bgColor="#E7EAF4" fgColor="#4765A9" />
      <CustomButton text="Sign In Google" onPress={onSignInGoogle} bgColor="#FAE9EA" fgColor="#DD4D44" />
      <CustomButton text="Sign In Apple" onPress={onSignInApple} bgColor="#e3e3e3" fgColor="#363636" />
 
