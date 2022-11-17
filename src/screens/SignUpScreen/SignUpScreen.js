@@ -38,12 +38,12 @@ const onSignUpPressed = () => {
      <CustomInput placeholder="Repeat Password" value={passwordRepeat} setValue={setPasswordRepeat} secureTextEntry={true}/>
      <CustomButton text="Register" onPress={onRegisterPressed} type="PRIMARY"/>
      <Text style={styles.link}>Privacy policy </Text>
-     <CustomButton text="Sign In with Facebook" onPress={onSignInFacebook} bgColor="#E7EAF4" fgColor="#4765A9" />
+     <CustomButton text="Sign In with Facebook " onPress={onSignInFacebook} bgColor="#E7EAF4" fgColor="#4765A9" />
      <CustomButton text="Sign In Google" onPress={onSignInGoogle} bgColor="#FAE9EA" fgColor="#DD4D44" />
      <CustomButton text="Sign In Apple" onPress={onSignInApple} bgColor="#e3e3e3" fgColor="#363636" />
 
      <CustomButton text="Dont have account ? Create one" onPress={onSignUpPressed} type="TERTIARY"/>
-
+      <CustomButton></CustomButton>
     </View>
     </ScrollView>
   )
