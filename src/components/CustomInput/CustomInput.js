@@ -3,6 +3,7 @@ import React from 'react'
 
 const CustomInput = ({value, setValue,placeholder, secureTextEntry}) => {
   return (
+    
     <View style={styles.container}>
       <TextInput 
       value={value}
