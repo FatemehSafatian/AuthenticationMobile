@@ -43,7 +43,7 @@ const onSignUpPressed = () => {
      <CustomButton text="Sign In Apple" onPress={onSignInApple} bgColor="#e3e3e3" fgColor="#363636" />
 
      <CustomButton text="Dont have account ? Create one" onPress={onSignUpPressed} type="TERTIARY"/>
-
+      <CustomButton></CustomButton>
     </View>
     </ScrollView>
   )
