@@ -44,6 +44,7 @@ const onSignUpPressed = () => {
 
      <CustomButton text="Dont have account ? Create one" onPress={onSignUpPressed} type="TERTIARY"/>
       <CustomButton></CustomButton>
+      
     </View>
     </ScrollView>
   )
