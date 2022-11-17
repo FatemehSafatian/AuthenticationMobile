@@ -29,7 +29,8 @@ const onSignUpPressed = () => {
 }
 
     return (
-      <ScrollView showsVerticalScrollIndicator={false}>
+      <ScrollView showsV
+      erticalScrollIndicator={false}>
     <View style={styles.root}>
      <Text style={styles.title} >Create an account </Text>
      <CustomInput placeholder="UserName" value={username} setValue={setUsername} />
